@@ -1,0 +1,28 @@
+{
+  "name": "unipanel-backend",
+  "version": "1.0.0",
+  "description": "Backend unificado para gerenciamento de painéis IPTV",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "axios-cookiejar-support": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "cheerio": "^1.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "form-data": "^4.0.5",
+    "js-sha3": "^0.9.3",
+    "jsonwebtoken": "^9.0.2",
+    "sharp": "^0.34.5",
+    "sql.js": "^1.9.0",
+    "tough-cookie": "^4.1.3"
+  },
+  "author": "Isaac",
+  "license": "MIT"
+}
